@@ -1,0 +1,225 @@
+body {
+    margin: 0 auto;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    cursor:pointer;
+    color:rgb(0, 0, 0);
+    font-size:1em;
+    border-radius:4px;
+    border:1px solid rgb(226, 226, 226);
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.main-nav-txt {
+    font-size: 16px;
+}
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+    
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    height: 40vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    width: 10rem;
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.single-box {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    padding: 5px;
+}
+
+div.single-box img {
+    width: 100%;
+    bottom: 5px;
+    height: auto;
+  }
+
+.img-area {
+    margin: auto;
+    background-color: #000;
+    display: flex;
+    height: 80%;
+    width: 80%;
+}
+
+.title-text {
+    font-size: 16px;
+    color: rgb(61, 11, 199);
+}
+
+.other-text {
+    font-size: 12px;
+}
+
+.add-cart {
+    float: right;
+}
+
+.add-btn {
+    position: relative;
+    transition: all 0.35 ease-in-out;
+    cursor: pointer;
+    text-align-last: right;
+}
+
+.box {
+    padding: 20px;
+    margin: 5px;
+    border-color: #56B870;
+}
+
+.box > img {
+    width: 70%;
+}
+
+footer {
+    text-align: left;
+}
+
+/***********************************************************************
+ *  Product Carousel
+ **********************************************************************/
+.carousel {
+    background: #41127a;
+}
+
+
+/***********************************************************************
+ *  Modal
+ **********************************************************************/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, 
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+
+
+/* Global "table" column settings */
+.product-image { float: left; width: 20%; }
+.product-title { float: left; width: 15%; }
+.product-price { float: left; width: 10%; }
+.product-quantity { float: left; width: 17%; }
+.product-removal { float: left; width: 26%; }
+.product-line-price { float: left; width: 12%; text-align: right; }
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+}

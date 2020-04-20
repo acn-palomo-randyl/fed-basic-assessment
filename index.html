@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FED Basic Assessment</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <nav class="zone">
+    <ul class="main-nav">
+        <li><a href=""><h1>Apple Sample Site</h1></a></li>
+        <li class="push"><a data-target="#cartModal" data-toggle="modal" class="main-nav-txt" id="myBtn" 
+          href="#cartModal">Cart</a></li>
+    </ul>
+  </nav>
+  <div class="container carousel"><img class="cover" src="./img/applewatchbig.png"></div>
+  <br><br>
+  <div class="grid-wrapper">
+
+    </div>
+  </div>
+
+<div id="cartModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h3>Shopping Cart</h3>
+    </div>
+    <div class="modal-body">
+      <!-- <p>Some text in the Modal Body</p> -->
+
+      <div class="shopping-cart">
+
+        <div>
+          <label class="product-image">Image</label>
+          <label class="product-title">Product</label>
+          <label class="product-price">Price</label>
+          <label class="product-quantity">Quantity</label>
+          <label class="product-removal">Remove</label>
+          <label class="product-line-price">Total</label>
+        </div>
+      
+         
+        <div class="product">
+          <div class="product-image">
+            <img src="./img/product1smallthumbnail.png">
+          </div>
+          <div class="product-details">
+            <div class="product-title">iPhone11</div>
+          </div>
+          <div class="product-price">12.99</div>
+          <div class="product-quantity">
+            <input type="number" value="2" min="1">
+          </div>
+          <div class="product-removal">
+            <button class="remove-product">
+              Remove
+            </button>
+          </div>
+          <div class="product-line-price">25.98</div>
+        </div>
+      
+      
+        <div>
+            <label>Final Total 90.57</label>
+        </div>
+      
+      </div>
+
+      <!-- <p>Some other text...</p> -->
+    </div>
+    <div class="modal-footer">Purchase</div>
+  </div>
+</div>
+  <br><br>
+  <footer>Copyright 2019 FED Basic Assessment</footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+	"product": [{
+			"name": "iphone 11",
+			"brand": "apple",
+"description": "iphone 11",
+			"price": "280"
+
+		},
+		{
+			"name": "iphone 12",
+			"brand": "apple",
+"description": "iphone 12",
+			"price": "281"
+		},
+		{
+			"name": "iphone 13",
+			"brand": "apple",
+" description": "iphone 13",
+			"price": "282"
+		},
+		{
+			"name": "iphone 14",
+			"brand": "apple",
+" description": "iphone 14",
+			"price": "283"
+		},
+		{
+			"name": "iphone 15",
+			"brand": "apple",
+" description": "iphone 14",
+			"price": "284"
+        },
+		{
+			"name": "iphone 16",
+			"brand": "apple",
+" description": "iphone 14",
+			"price": "284"
+		}
+	]
+}
